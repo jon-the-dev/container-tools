@@ -1,0 +1,14 @@
+name: ctx-probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump context values
+        run: |
+          echo "ref_name=[${{ github.ref_name }}]"
+          echo "ref=[${{ github.ref }}]"
+          echo "default_branch=[${{ github.event.repository.default_branch }}]"
+          echo "repo_obj_null=[${{ github.event.repository == null }}]"
+          echo "COMPARISON=[${{ github.ref_name != github.event.repository.default_branch }}]"
