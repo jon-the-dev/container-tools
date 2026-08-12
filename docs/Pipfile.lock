@@ -652,12 +652,11 @@
         },
         "markdown": {
             "hashes": [
-                "sha256:46cc0c0f1e5211ab2e9d453582f0b28a1bfaf058a9f7d5c50386b99b588d8811",
-                "sha256:a2e2f01cead4828ee74ecca9623045f62216aef2212a7685d6eb9163f590b8c1"
+                "sha256:3589362618f743188b4d955b874402bc814f4f83f544dc207719f4baa7d9c45f",
+                "sha256:fa6c92a00a4a3c98b22728c64a935ae1928250ae65058a6ded814d2cc29a4cea"
             ],
-            "index": "pypi",
-            "markers": "python_version >= '3.9'",
-            "version": "==3.8.1"
+            "markers": "python_version >= '3.10'",
+            "version": "==3.10.3"
         },
         "markdown-it-py": {
             "hashes": [
@@ -1237,12 +1236,12 @@
         },
         "pymdown-extensions": {
             "hashes": [
-                "sha256:72cfcf55f07aea0d4af2c4f11dd4e52466ddfb1bb819673146398e0bd3a77354",
-                "sha256:d7a5d08014fc571e80ca21dd6f854e31f94c489800350564d55d15b3c41e76b6"
+                "sha256:db3943a62bab7e03af1364f0c4083e64b91fb097675a4b6cceccfbe9a77e5eb2",
+                "sha256:dd2905ae6fc5b75582fafb139a1266ffc754705efa902aa50067fa7ff4f94ec0"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.9'",
-            "version": "==10.21.3"
+            "markers": "python_version >= '3.10'",
+            "version": "==11.0.1"
         },
         "pymongo": {
             "hashes": [
